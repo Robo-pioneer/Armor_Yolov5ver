@@ -83,17 +83,11 @@ The following command is used to compile PyTorch Vision:
 
 ```bash
 $ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev
-
 $ git clone --branch release/0.11 https://github.com/pytorch/vision.git
-
 $ cd vision
-
 $ export BUILD_VERSION=0.x.0 # Change the version to 0.11.1
-
 $ python3 setup.py install --user # The compile process is older.
-
 $ cd ../ # attempting to load torchvision from build dir will result in import error
-
 $ pip install 'pillow<7'
 ```
 
