@@ -20,7 +20,7 @@ For the related introduction of yolov5, please refer to [yolov5-README](yolov5-R
 | Testing Platform          | Acceleration                                          | Inference Time/ms  | Total Time/ms TPS Average | Remarks                                                      |
 | ------------------------- | ----------------------------------------------------- | ------------------ | ------------------------- | ------------------------------------------------------------ |
 | CPU:i7-4700HQ GPU:GTX960m | \                                                     | N/A                | 5ms 17 FPS               | [Test by Gavin_xiang’s](https://bbs.robomaster.com/forum.php?mod=viewthread&tid=22626) |
-| Jetson Tx2 NX             | Pythorch acceleration (without TensorRT acceleration) | 0.9 ms             | 11ms 8 FPS                | Test result in Robo-pioneer team (with secondary verification turned off) |
+| Jetson Tx2 NX             | Pythorch acceleration (without TensorRT acceleration) | 9 ms             | 11ms 8 FPS                | Test result in Robo-pioneer team (with secondary verification turned off) |
 | Jetson NANO               | Pythorch acceleration (without TensorRT acceleration) | To be supplemented | To be supplemented        | To be supplemented                                           |
 |                           |                                                       |                    |                           |                                                              |
 
