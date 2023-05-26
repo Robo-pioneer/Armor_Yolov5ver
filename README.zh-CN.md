@@ -67,7 +67,7 @@ $ sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev liba
 $ git clone --branch release/0.11 https://github.com/pytorch/vision.git
 $ cd vision
 $ export BUILD_VERSION=0.x.0 # 将版本修改为 0.11.1
-$ python3 setup.py install --user #编译过程比较旧
+$ python3 setup.py install --user #编译过程比较久
 $ cd ../ # attempting to load torchvision from build dir will result in import error
 $ pip install 'pillow<7'
 ```
