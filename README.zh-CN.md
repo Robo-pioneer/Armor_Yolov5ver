@@ -55,6 +55,7 @@ $ pip3 -r requirements.txt
 
 ```bash
 $ wget LINK_OF_PYTHORCH_WHL
+$ #wget https://nvidia.box.com/shared/static/fjtbno0vpo676a25cgvuqc1wty0fkkg6.whl
 $ pip3 install torch-1.10.0-cp36-cp36m-linux_aarch64.whl
 $ sudo apt update
 $ sudo apt install nvidia-jetpack #运行前请检查设备剩余空间
